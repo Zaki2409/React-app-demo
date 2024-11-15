@@ -3,9 +3,8 @@ import Post from './components/Post'
 function App() {
   return (
     <main> 
-      <Post />
-      <Post />
-      <Post />
+      <Post author="zaki" body="React.js is awesome"/>
+      <Post author="zaheer" body="Next.js is awesome"/>
     
     </main>
 
