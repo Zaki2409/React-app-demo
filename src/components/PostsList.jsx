@@ -23,7 +23,9 @@ return (
      {isPosting ? <Modal onClose={onStopPosting}>
      <NewPost 
           onBodyChange={changeBodyHandler} 
-          onAuthorChange={authorBodyHandler}/>
+          onAuthorChange={authorBodyHandler}
+          onCancel={onStopPosting}
+          />
       </Modal> :false}
      
  <ul className={classes.posts}>
