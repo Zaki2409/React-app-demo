@@ -8,7 +8,7 @@ function Modal(props) { // can also use object destructuring to direclty access 
     //</dialog>  
 return (
 <>
-<div className={classes.backdrop} />
+<div className={classes.backdrop} onClick={props.onClose} />
     <dialog open className={classes.modal}>
         {props.children} 
     </dialog>
